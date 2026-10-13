@@ -117,7 +117,7 @@ const temas = {
   },
 
   banco: {
-    titulo: "Banco de actividades: cómo elegir",
+    titulo: "Banco de actividades:¿cómo elegir?",
 
     contenido: `
       <p>
@@ -125,12 +125,39 @@ const temas = {
         y sigue esta ruta:
       </p>
 
-      <p>
-        <strong>
-          Nivel académico → Modelo Live →
-          Banco de actividades → Curso → Metodología.
-        </strong>
-      </p>
+     <div class="ruta-banco" aria-label="Ruta en el Portal Docente">
+  <span class="ruta-banco-paso">
+    <i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
+    <strong>Nivel académico</strong>
+  </span>
+  <i class="bi bi-arrow-right ruta-flecha" aria-hidden="true"></i>
+
+  <span class="ruta-banco-paso">
+    <i class="bi bi-camera-video-fill" aria-hidden="true"></i>
+    <strong>Modelo Live</strong>
+  </span>
+
+  <i class="bi bi-arrow-right ruta-flecha" aria-hidden="true"></i>
+
+  <span class="ruta-banco-paso">
+    <i class="bi bi-collection-fill" aria-hidden="true"></i>
+    <strong>Banco de actividades</strong>
+  </span>
+
+  <i class="bi bi-arrow-right ruta-flecha" aria-hidden="true"></i>
+
+  <span class="ruta-banco-paso">
+    <i class="bi bi-journal-bookmark-fill" aria-hidden="true"></i>
+    <strong>Curso</strong>
+  </span>
+
+  <i class="bi bi-arrow-right ruta-flecha" aria-hidden="true"></i>
+
+  <span class="ruta-banco-paso">
+    <i class="bi bi-diagram-3-fill" aria-hidden="true"></i>
+    <strong>Metodología</strong>
+  </span>
+</div>
 
       <p>
         Elige las actividades según la metodología asignada.
