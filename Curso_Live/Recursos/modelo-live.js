@@ -113,15 +113,7 @@ const temas = {
 
   tips: {
     titulo: "Tips para una clase dinámica",
-
-    contenido: `
-      <ul>
-        <li>Activa al grupo durante los primeros 5 minutos.</li>
-        <li>Usa videos de 5 a 10 minutos como máximo.</li>
-        <li>Haz preguntas abiertas.</li>
-        <li>Apóyate en recursos visuales.</li>
-      </ul>
-    `
+     contenido: ``
   },
 
   banco: {

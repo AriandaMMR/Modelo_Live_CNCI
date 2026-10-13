@@ -915,22 +915,25 @@ const audiosPorTutorial = [
   [
     "Recursos/Recursos_Teams/Audios/Vamos a crear tu equipo en Microsoft Teams.MP3",
     "Recursos/Recursos_Teams/Audios/selecciona.MP3",
-    "Recursos/Recursos_Teams/Audios/sin_abreviaturas.MP3",
-    "",
-    ""
+    "Recursos/Recursos_Teams/Audios/Selecciona_clase.MP3",
+    "Recursos/Recursos_Teams/Audios/Escribe_nombre.MP3",
+    "Recursos/Recursos_Teams/Audios/Final_tutorial1.MP3",
+   
   ],
   [
     "Recursos/Recursos_Teams/Audios/Programar_reunion01.MP3",
     "Recursos/Recursos_Teams/Audios/Coloca_SesionesSincronicas.MP3",
-    "Recursos/Recursos_Teams/Audios/Programa_los_3Sab.MP3",
-    "Recursos/Recursos_Teams/Audios/Respeta_Horarios.MP3"
+    "Recursos/Recursos_Teams/Audios/Configura la repetición semanal.MP3",
+    "Recursos/Recursos_Teams/Audios/Revisa y envía la reunión.MP3",
+    "Recursos/Recursos_Teams/Audios/Listo02.MP3"
   ],
   [
     "Recursos/Recursos_Teams/Audios/Publica_grabacion01.MP3",
     "Recursos/Recursos_Teams/Audios/Publica_grabacion02.MP3",
     "Recursos/Recursos_Teams/Audios/Publica_grabacion03.MP3",
     "Recursos/Recursos_Teams/Audios/Publica_grabacion04.MP3",
-    "Recursos/Recursos_Teams/Audios/Publica_grabacion05.MP3"
+    "Recursos/Recursos_Teams/Audios/Publica_grabacion05.MP3",    
+    "Recursos/Recursos_Teams/Audios/Listo03.MP3"
   ]
 ];
 
