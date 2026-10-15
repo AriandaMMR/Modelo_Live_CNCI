@@ -1878,3 +1878,68 @@ body {
     transform: rotate(90deg);
   }
 }
+
+/* ENCABEZADO AZUL: SOLO EN LA PÁGINA INICIAL */
+body.tema-abierto .encabezado {
+  display: none;
+}
+
+/* BOTÓN CLARO/OSCURO ARRIBA DE CADA TEMA */
+.barra-temas {
+  display: none;
+}
+
+body.tema-abierto .barra-temas {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 0 12px;
+}
+
+.barra-temas .cambiar-tema {
+  position: static;
+  transform: none;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* ANCHO ADICIONAL ÚNICAMENTE PARA TEAMS */
+.contenedor.vista-teams {
+  width: min(1440px, 96%);
+}
+
+.contenedor.vista-teams .detalle {
+  width: 100%;
+  max-width: none;
+}
+
+.contenedor.vista-teams .panel-detalle {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.contenedor.vista-teams .contenido-detalle {
+  min-width: 0;
+}
+
+.contenedor.vista-teams .tutorial-teams {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* ESPACIADO EN CELULAR */
+@media (max-width: 700px) {
+  .contenedor.vista-teams {
+    width: 96%;
+  }
+
+  .contenedor.vista-teams .panel-detalle {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .barra-temas .cambiar-tema {
+    padding: 7px 10px;
+    font-size: 0.75rem;
+  }
+}

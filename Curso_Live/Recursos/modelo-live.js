@@ -192,7 +192,16 @@ function abrirTema(clave) {
   const tema = temas[clave];
 
   if (!tema) return;
+  // Ocultar el encabezado azul dentro de cualquier tema.
+document.body.classList.add("tema-abierto");
 
+// Ampliar el recurso únicamente al abrir Teams.
+document.querySelector(".contenedor")
+  .classList.toggle("vista-teams", clave === "teams");
+
+// Mover el mismo botón claro/oscuro arriba del tema.
+document.getElementById("barra-temas")
+  .append(document.getElementById("cambiar-tema"));
   document.getElementById("titulo-detalle").textContent =
     tema.titulo;
 
@@ -263,6 +272,15 @@ document.querySelectorAll("[data-tema]").forEach(tarjeta => {
 // VOLVER A LA GUÍA
 
 document.getElementById("volver").addEventListener("click", () => {
+  // Recuperar la presentación de la página inicial.
+document.body.classList.remove("tema-abierto");
+
+document.querySelector(".contenedor")
+  .classList.remove("vista-teams");
+
+// Devolver el botón al encabezado azul.
+document.querySelector(".barra-encabezado")
+  .append(document.getElementById("cambiar-tema"));
   reproductor.replaceChildren();
 
   document.getElementById("contenido-detalle").replaceChildren();
